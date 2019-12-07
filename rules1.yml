@@ -588,4 +588,4 @@ Rule:
 
 # > 最终规则
 - GEOIP,CN,DIRECT
-- MATCH,Others
+- MATCH,auto
