@@ -161,7 +161,7 @@ def setPG(nodes):  # 设置策略组 auto,Fallback-auto,Proxy
 def getClash(nodes):
 
     gener = getBasefile(
-        'https://raw.githubusercontent.com/JRQLS/ToClash/master/General.yml')
+        'https://github.com/benjaminbnuz/ToClash/raw/master/General.yml')
     with open("./clash.yml", "w") as f:
         f.writelines(gener)
 
