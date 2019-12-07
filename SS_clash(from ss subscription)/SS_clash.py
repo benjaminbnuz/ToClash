@@ -170,7 +170,7 @@ def getClash(nodes):
         f.writelines(info)
 
     rules = getBasefile(
-        'https://raw.githubusercontent.com/JRQLS/ToClash/master/rules.yml')
+        'https://raw.githubusercontent.com/benjaminbnuz/ToClash/master/rules1.yml')
     with open("./clash.yml", "a") as f:
         f.writelines(rules)
 
